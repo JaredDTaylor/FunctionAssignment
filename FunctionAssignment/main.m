@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+    
+        int i;
+        for (i = 0; i <= 1000; i++){
+            if (i%2 == 0){
+                NSLog(@"Even");
+            }else{
+                NSLog(@"Odd");
+            }
+        }
+    
     }
     return 0;
 }
