@@ -8,18 +8,10 @@
 
 #import <Foundation/Foundation.h>
 bool IsOdd(int i){
-    if (i%2 != 0) {
-        return true;
-    }else{
-        return false;
-    }
+    return i%2!=0;
 }
 bool IsEven(int i){
-    if (i%2 == 0) {
-        return true;
-    }else{
-        return false;
-    }
+    return i%2==0;
 }
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
